@@ -1,0 +1,126 @@
+*{  
+    padding:0px;
+    margin:0px;
+}
+
+h4{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("src/rpsbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+}
+
+#cmpout,#uout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:96px;
+    width:96px;
+    margin:auto;
+    border:solid;
+    border-radius: 15px;
+}
+
+.center{
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+   height:15px;
+   font-weight: 600;
+}
+
+#maindiv{
+    background-color:rgba(255, 255, 255, 0.95);
+    min-height:515px;
+    width:60vw;
+	min-width:320px;
+    margin:20vh auto;
+    justify-content:center;
+    align-items:center;
+    border-radius:4px;
+    border-width:1px;
+}
+
+button{
+    font-weight: 600;
+    font-family: sans-serif;
+    border-style: none;
+    border-radius:3px;
+    border-width:1px;
+    padding:8px;
+    margin:5px;
+    font-size: 16px;
+}
+
+#Scissors{
+    color:black;
+    background-color: #33b5cc;
+}
+
+#Paper{
+    color:white;
+    background-color: #e1102a;
+}
+
+#Rock{
+    color:black;
+    background-color: #e9e644;
+}
+#score{
+    color:red;
+}
+
+.copyright,#reload{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    background-color: #3f3f3f;
+    padding: 7px;
+    width:100vw;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size: 13px;
+}
+
+footer{
+    font-family:sans-serif;
+    position:fixed;
+    bottom:0px;
+}
+
+.linkedin,.instagram{
+    padding-left:10px;
+}
+
+a:hover,
+a:active,
+a:focus {
+   color:rgb(0, 195, 255);
+   outline: none;
+   text-decoration: none;
+
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    transition:0.3s;
+ }
